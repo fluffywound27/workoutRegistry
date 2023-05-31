@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(164, 255, 154);
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2, h3 {
+  font-size: 1em;
+  margin: 0;
+}
+.navbar {
+background-color: rgb(202, 255, 196);
+text-align: center;
+max-width: 500px;
+margin: auto;
+border-radius: 50px;
+}
+.btn {
+  padding-top: .5rem;
+  padding-bottom: 0.5rem;
+  background: none;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: .8;
+}
+.btn:active {
+  opacity: 0.6;
+}
+.session-name {
+  font-size: 1.2rem;
+  margin-bottom: 0.4em;
+}
+.btn-bar {
+  display: flex;
+  justify-content: space-evenly;
+}
+.add-btn, .save-btn, .remove-btn {
+  border-radius: 50px;
+  border: none;
+  padding: .5rem 2rem;
+  margin: 1em 0;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+.add-btn:hover,
+.save-btn:hover,
+.remove-btn:hover {
+  opacity: .8;
+}
+.add-btn:active,
+.save-btn:active,
+.remove-btn:active {
+  opacity: 0.6;
+}
+.add-btn {
+  background-color: rgb(154,164,255);
+}
+.save-btn {
+  background-color: blueviolet;
+}
+.remove-btn {
+  background-color: lightcoral;
+}
+.wrapper {
+  background-color: white;
+  padding: 1em 1rem;
+  margin: auto;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.site-title {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 1em;
+}
+.form-body {
+  padding-top: .5em;
+  border-top: 2px solid rgb(164, 255, 154);
+}
+.exercise-input, .weight-input, .set-input, .session-name-input {
+  padding: 0.4rem;
+  margin: 1em 0.1em;
+}
+.set-input {
+  width: 20%;
+}
+.set-data {
+  display: flex;
+  justify-content: center;
+}
+.rep-data {
+  margin: 1rem;
+}

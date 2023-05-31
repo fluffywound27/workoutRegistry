@@ -1,0 +1,14 @@
+.saved-files {
+  border-top: 2px solid rgb(164, 255, 154);
+}
+.saved-item {
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 3px solid rgb(164, 255, 154);
+}
+a {
+  cursor: pointer;
+}

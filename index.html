@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workout Registry</title>
+  <link rel="stylesheet" href="styles/global.css">
+</head>
+<body>
+  <header>
+    <h1 class="site-title">WORKOUT REGISTRY</h1>
+    <div class="navbar">
+      <button id="js-new-session-btn" class="btn">New Session</button>
+      <a href="saves.html"><button class="btn">Saved Files</button></a>
+      <button id="js-reset-data-btn" class="btn">Erase Data</button>
+    </div>
+  </header>
+  <div id="js-wrapper" class="wrapper">
+    <h2 class="session-name">Name your workout</h2>
+    <input id="js-session-name-input" class="session-name-input" type="text" placeholder="mm/dd/yyyy - workout">
+    <div class="btn-bar">
+      <button id="js-add-btn" class="add-btn">Add</button>
+      <button id="js-save-btn" class="save-btn">Save</button>
+    </div>
+    <div id="js-form-wrapper" class="form-wrapper"></div>
+    </div>
+  </div>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
